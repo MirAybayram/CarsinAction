@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cars in Action</title>
+
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta:300,400,700">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <!-- <link rel="stylesheet" href="css/owl.carousel.min.css"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta:300,400,700">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/magnific-popup.css"> -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- <script src="https://kit.fontawesome.com/5f02e07219.js" crossorigin="anonymous"></script> -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Cars in Action</title>
+</head>
+
+<body>
+    <div class="site-wrap">
+        <header class="site-navbar" role="banner">
+            <div class="site-navbar-top">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-6 col-md-4 order-2 order-md-1 site-search-icon text-left">
+                            <form action="" class="site-block-top-search">
+                                <span class="icon icon-search"></span>
+                                <input type="text" class="form-control border-0" placeholder="Search">
+                            </form>
+                        </div>
+
+                        <div class="col-12 mb-3 mb-md-0 col-md-4 order-1 order-md-2 text-center">
+                            <div class="site-logo">
+                                <a href="index.html" class="js-logo-clone">Cars in Action</a>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-4 order-3 order-md-3 text-right">
+                            <div class="site-top-icons">
+
+                                <button class=" btn btnFavori " type="button">
+                                    <span><a href="fav.html" class="icon icon-favorite"></a> </span>
+                                </button>
+                                <button type="button" class="btn  btncart" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasRight">
+                                    <a class="bi-cart-fill me-1"></a>
+                                    cart
+                                    <span class="rounded-pill">0</span>
+                                </button>
+                                <button class="btn  " type="button">
+                                    <span><a class="icon icon-user"></a></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="site-navigation text-right text-md-center" role="navigation">
+                <div class="container">
+                    <ul class="site-menu js-clone-nav d-none d-md-block">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="has-children">
+                            <a href="#">Car Brands</a>
+                            <ul class="dropdown">
+                                <li><a href="#">Sedan</a></li>
+                                <li><a href="#">Hatchback</a></li>
+                                <li><a href="#">Station wagon</a></li>
+                                <li><a href="#">Cabrio</a></li>
+                                <li><a href="#">Pick up</a></li>
+                                <li><a href="#">SUV</a></li>
+                            </ul>
+                        </li>
+                        <li class="active"><a href="index.html">Shop</a></li>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="bg-light py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 mb-0"><a href="shop.html">Home</a> <span class="mx-2 mb-0">/</span> <strong
+                            class="text-black">Favorilerim</strong></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="site-section">
+            <div class="container">
+                <div class="row mb-5">
+                    <form class="col-md-12" method="post">
+                        <div class="row mb-5 favoriler">
+
+
+
+                            <div class="col-sm-1 col-lg-4 mb-4">
+                                <div class="block-4 text-center border">
+                                    <img src="./yeni-2022-ford-focus-turkiye-de-iste-fiyati-ve-ozellikleri149125_1.jpg" alt="" class="card-img-top">
+                                    <button class="icon icon-close btn btn-light   position-absolute"
+                                        style="top: 0.9rem; right: 1rem" data-id="${item.id}"></button>
+                                    <div class="badge bg-dark text-white position-absolute"
+                                        style="top: 0.5rem; left: 0.5rem">-10</div>
+                                    <div class="card-body p-4 ">
+                                        <div class="text-center color">
+                                            <h3><a href="#">Ford</a></h3>
+                                            <h4 class="fw-normal">Yeni Tasarımıyla Ford Focus Sedan Stili</h4>
+                                            <span class="text-primary font-weight-bold"> 896000₺</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer p-2 pt-0 border-top-0 bg-transparent">
+                                        <div>
+                                            <button class="btn btn-secondary btn-sm mb-3 mt-auto"
+                                                data-id="${item.id}">Add To Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <h3><a href="#">Polo Shirt</a></h3>
+                        <p class="mb-0">Finding perfect products</p>
+                        <p class="text-primary font-weight-bold">$50</p>
+
+                        <button type="button" class="btn btn-secondary btn-sm mb-3">
+                            Add To Cart
+                        </button> -->
+
+
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="offcanvas offcanvas-end" id="offcanvasRight">
+            <div class="offcanvas-header">
+                <h5>Shopping Cart</h5>
+                <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="shopping-cart">
+                    <ul class="cart-list">
+                        <!-- <li class="cart-list-item">
+                              <div class="cart-left">
+                                  <div class="cart-left-image">
+                                      <img src="./sifir-araba-fiyatlari-2022-iste-en-ucuz-sifir-otomobiller-1648190063665.jpg"
+                                          alt="products">
+                                  </div>
+                                  <div class="cart-left-info">
+                                      <a class="cart-left-info-title" href="#">table</a>
+                                      <span class="cart-left-info-price">₺300</span>
+                                  </div>
+                              </div>
+                              <div class="cart-right">
+                                  <div class="cart-right-quantity">
+                                      <button class="quantity-minus">
+                                          <i class="fas fa-minus"></i>
+                                      </button>
+                                      <span class="quantity">0</span>
+                                      <button class="quantity-minus">
+                                          <i class="fas fa-plus"></i>
+                                      </button>
+                                  </div>
+                                  <div class="cart-right-remove">
+                                      <button class="cart-remove-btn">
+                                          <i class="fas fa-trash"></i>
+                                      </button>
+                                  </div>
+                              </div>
+                          </li> -->
+                    </ul>
+
+                    <div class="shopping-cart-bottom">
+                        <div class="total">
+                            <div class="total-title">Subtotal:</div>
+                            <span class="total-value">₺0</span>
+                        </div>
+                        <button class="btn btn-clear" type="button">Clear</button>
+                        <button class=" btn btn-clear" type="button">Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="py-5 bg-dark">
+            <div class="container">
+                <p class="m-0 text-center text-white">MB 2022 &copy; All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <script src="./js/cart.js"></script>
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/filter.js"></script>
+</body>
+
+</html>
